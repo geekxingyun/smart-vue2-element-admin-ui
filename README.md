@@ -26,6 +26,9 @@ English | [简体中文](./README.zh-CN.md)
 
 [vue-element-admin](https://panjiachen.github.io/vue-element-admin) is based on the newest development stack of vue and it has a built-in i18n solution, typical templates for enterprise applications, and lots of awesome features. It helps you build large and complex Single-Page Applications. I believe whatever your needs are, this project will help you.
 
+> - Origin Repository: https://github.com/PanJiaChen/vue-element-admin
+> - Do Some Change: https://xingyun.blog.csdn.net/article/details/132246670
+
 - [Preview](https://panjiachen.github.io/vue-element-admin)
 
 - [Documentation](https://panjiachen.github.io/vue-element-admin-site/)
