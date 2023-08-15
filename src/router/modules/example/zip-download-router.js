@@ -10,7 +10,7 @@ const zipExampleRouter = {
   children: [
     {
       path: 'download',
-      component: () => import('@/views/zip/index'),
+      component: () => import('@/views/example-page/zip/index'),
       name: 'ExportZip',
       meta: { title: 'Export Zip' }
     }

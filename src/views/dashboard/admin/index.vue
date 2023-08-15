@@ -41,15 +41,15 @@
 </template>
 
 <script>
-import GithubCorner from '@/components/GithubCorner'
-import PanelGroup from './components/PanelGroup'
-import LineChart from './components/LineChart'
-import RaddarChart from './components/RaddarChart'
-import PieChart from './components/PieChart'
-import BarChart from './components/BarChart'
-import TransactionTable from './components/TransactionTable'
-import TodoList from './components/TodoList'
-import BoxCard from './components/BoxCard'
+import GithubCorner from '@/components/GithubCorner/index.vue'
+import PanelGroup from './components/PanelGroup.vue'
+import LineChart from './components/LineChart.vue'
+import RaddarChart from './components/RaddarChart.vue'
+import PieChart from './components/PieChart.vue'
+import BarChart from './components/BarChart.vue'
+import TransactionTable from './components/TransactionTable.vue'
+import TodoList from './components/TodoList/index.vue'
+import BoxCard from './components/BoxCard.vue'
 
 const lineChartData = {
   newVisitis: {

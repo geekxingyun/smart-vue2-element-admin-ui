@@ -10,7 +10,7 @@ const guideExampleRouter = {
   children: [
     {
       path: 'index',
-      component: () => import('@/views/guide'),
+      component: () => import('@/views/example-page/guide'),
       name: 'Guide',
       meta: { title: 'Guide', icon: 'guide', noCache: true }
     }

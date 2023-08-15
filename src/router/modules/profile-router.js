@@ -11,7 +11,7 @@ const profileRouter = {
   children: [
     {
       path: 'index',
-      component: () => import('@/views/profile/index'),
+      component: () => import('@/views/example-page/profile/index'),
       name: 'Profile',
       meta: { title: '个人中心', icon: 'user', noCache: true }
     }

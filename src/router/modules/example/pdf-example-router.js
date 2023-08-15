@@ -7,7 +7,7 @@ const pdfExampleRouter = {
   children: [
     {
       path: 'index',
-      component: () => import('@/views/pdf/index'),
+      component: () => import('@/views/example-page/pdf/index'),
       name: 'PDF',
       meta: { title: 'PDF', icon: 'pdf' }
     }

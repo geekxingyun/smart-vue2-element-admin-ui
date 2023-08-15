@@ -12,20 +12,20 @@ const overViewExampleRouter = {
   children: [
     {
       path: 'create',
-      component: () => import('@/views/example/create'),
+      component: () => import('@/views/example-page/example/create'),
       name: 'CreateArticle',
       meta: { title: 'Create Article', icon: 'edit' }
     },
     {
       path: 'edit/:id(\\d+)',
-      component: () => import('@/views/example/edit'),
+      component: () => import('@/views/example-page/example/edit'),
       name: 'EditArticle',
       meta: { title: 'Edit Article', noCache: true, activeMenu: '/example/list' },
       hidden: true
     },
     {
       path: 'list',
-      component: () => import('@/views/example/list'),
+      component: () => import('@/views/example-page/example/list'),
       name: 'ArticleList',
       meta: { title: 'Article List', icon: 'list' }
     }

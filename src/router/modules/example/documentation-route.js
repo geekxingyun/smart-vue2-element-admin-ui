@@ -9,7 +9,7 @@ const documentRouter = {
   children: [
     {
       path: 'index',
-      component: () => import('@/views/documentation'),
+      component: () => import('@/views/example-page/documentation'),
       name: 'Documentation',
       meta: { title: '文档', icon: 'documentation', affix: true }
     }

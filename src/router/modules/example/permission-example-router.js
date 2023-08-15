@@ -17,7 +17,7 @@ const permissionExampleRouter = {
   children: [
     {
       path: 'page',
-      component: () => import('@/views/permission/page'),
+      component: () => import('@/views/example-page/permission/page'),
       name: 'PagePermission',
       meta: {
         title: 'Page Permission',
@@ -26,7 +26,7 @@ const permissionExampleRouter = {
     },
     {
       path: 'directive',
-      component: () => import('@/views/permission/directive'),
+      component: () => import('@/views/example-page/permission/directive'),
       name: 'DirectivePermission',
       meta: {
         title: 'Directive Permission'
@@ -35,7 +35,7 @@ const permissionExampleRouter = {
     },
     {
       path: 'role',
-      component: () => import('@/views/permission/role'),
+      component: () => import('@/views/example-page/permission/role'),
       name: 'RolePermission',
       meta: {
         title: 'Role Permission',

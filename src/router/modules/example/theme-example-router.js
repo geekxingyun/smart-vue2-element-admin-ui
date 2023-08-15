@@ -6,7 +6,7 @@ const themeExampleRouter = {
   children: [
     {
       path: 'index',
-      component: () => import('@/views/theme/index'),
+      component: () => import('@/views/example-page/theme/index'),
       name: 'Theme',
       meta: { title: 'Theme', icon: 'theme' }
     }

@@ -6,7 +6,7 @@ const errorLogExampleRouter = {
   children: [
     {
       path: 'log',
-      component: () => import('@/views/error-log/index'),
+      component: () => import('@/views/example-page/error-log/index'),
       name: 'ErrorLog',
       meta: { title: 'Error Log', icon: 'bug' }
     }

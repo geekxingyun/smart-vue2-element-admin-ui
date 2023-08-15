@@ -61,7 +61,7 @@ export const constantRoutes = [
     children: [
       {
         path: '/redirect/:path(.*)',
-        component: () => import('@/views/redirect/index')
+        component: () => import('@/views/example-page/redirect/index')
       }
     ]
   },

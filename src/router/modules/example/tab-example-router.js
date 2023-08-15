@@ -6,7 +6,7 @@ const tabExampleRouter = {
   children: [
     {
       path: 'index',
-      component: () => import('@/views/tab/index'),
+      component: () => import('@/views/example-page/tab/index'),
       name: 'Tab',
       meta: { title: 'Tab', icon: 'tab' }
     }
